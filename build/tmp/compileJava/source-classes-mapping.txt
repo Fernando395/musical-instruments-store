@@ -1,8 +1,10 @@
-Estoque.java
- Estoque
-Violao.java
- Violao
-Fornecedor.java
- Fornecedor
-ViolaoEletrico.java
- ViolaoEletrico
+Provider.java
+ Provider
+Guitar.java
+ Guitar
+ElectricGuitar.java
+ ElectricGuitar
+Product.java
+ Product
+Stock.java
+ Stock

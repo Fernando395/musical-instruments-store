@@ -1,9 +1,26 @@
+import java.util.ArrayList;
+
 public class Stock {
-    public static void main(String[] args) {
-        Provider provider = new Provider("Fernando", "fe395rodrigues@gmail.com", "51996685590");
+    private ArrayList<Product> products = new ArrayList<Product>();
 
-        Guitar guitar = new Guitar("tagima", 129.90, provider);
-        ElectricGuitar electricGuitar = new ElectricGuitar("folk",169.90,null,"folk-3.2.00");
+    public void addProduct(Product product) {
+        this.products.add(product);
+    }
 
+
+    public void removeProduct(Product product) {
+        products.remove(product);
+    }
+
+    public Product getProduct(int index) {
+        return products.get(index);
+    }
+
+    public ArrayList<Product> getProducts() {
+        return products;
+    }
+
+    public int getProductQuantity() {
+        return products.size();
     }
 }

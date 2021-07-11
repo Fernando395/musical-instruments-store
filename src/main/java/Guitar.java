@@ -1,15 +1,9 @@
-public class Guitar {
-    private String brand;
-    private double value;
-    private Provider provider;
+public class Guitar extends Product {
 
 
     public Guitar(String brand, double value, Provider provider) {
-        this.brand = brand;
-        this.value = value;
-        this.provider = provider;
+        super(brand, value, provider);
         addingGuitar();
-
     }
 
     public void addingGuitar() {
@@ -17,8 +11,8 @@ public class Guitar {
         System.out.println("Dados do violão");
         System.out.println("Marca:" + brand);
         System.out.println("Valor:" + value);
-        if (provider != null){
-        provider.mostrarDados();
+        if (provider != null) {
+            provider.mostrarDados();
         }
         System.out.println("Fornecedor não cadastrado");
 
