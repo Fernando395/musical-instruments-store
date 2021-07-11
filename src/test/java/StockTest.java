@@ -22,6 +22,5 @@ public class StockTest {
         assertEquals(product, stock.getProduct(0));
         stock.removeProduct(product);
         Assertions.assertEquals(0, stock.getProductQuantity());
-
     }
 }

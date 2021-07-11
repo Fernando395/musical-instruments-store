@@ -1,6 +1,5 @@
 public class Guitar extends Product {
 
-
     public Guitar(String brand, double value, Provider provider) {
         super(brand, value, provider);
         addingGuitar();
@@ -15,7 +14,6 @@ public class Guitar extends Product {
             provider.mostrarDados();
         }
         System.out.println("Fornecedor não cadastrado");
-
     }
 
     public void applyingDiscount(double discount) {
@@ -29,9 +27,7 @@ public class Guitar extends Product {
         return brand;
     }
 
-
     public double getValue() {
         return value;
     }
-
 }
