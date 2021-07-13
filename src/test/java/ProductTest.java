@@ -12,4 +12,12 @@ public class ProductTest {
         assertEquals(129.90, product.getValue());
         assertEquals(provider, product.getProvider());
     }
+
+    @Test
+    public void shouldShowAddedProductData(){
+        Provider provider = new Provider("Fernando", "fe395rodrigues@gmail.com", "51996685590");
+        Product product = new Product("Tagima", 129.90, provider);
+
+
+    }
 }

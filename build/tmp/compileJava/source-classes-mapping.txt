@@ -4,7 +4,7 @@ Guitar.java
  Guitar
 ElectricGuitar.java
  ElectricGuitar
-Product.java
- Product
 Stock.java
  Stock
+Product.java
+ Product

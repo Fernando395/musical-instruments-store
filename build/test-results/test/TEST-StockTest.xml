@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StockTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-11T19:12:17" hostname="bruno-Aspire-A315-53" time="0.034">
+<testsuite name="StockTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-07-13T10:39:20" hostname="bruno-Aspire-A315-53" time="0.053">
   <properties/>
-  <testcase name="shouldRemoveProduct()" classname="StockTest" time="0.031"/>
+  <testcase name="shouldGetProduct()" classname="StockTest" time="0.04"/>
+  <testcase name="shouldRemoveProduct()" classname="StockTest" time="0.002"/>
   <testcase name="shouldAddProduct()" classname="StockTest" time="0.002"/>
+  <testcase name="shouldGetQuantityOfProducts()" classname="StockTest" time="0.002"/>
+  <testcase name="shouldGetProducts()" classname="StockTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
