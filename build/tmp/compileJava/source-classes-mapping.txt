@@ -1,10 +1,12 @@
-Provider.java
- Provider
 Guitar.java
  Guitar
 ElectricGuitar.java
  ElectricGuitar
-Stock.java
- Stock
+Provider.java
+ Provider
 Product.java
  Product
+Stock.java
+ Stock
+Balance.java
+ Balance

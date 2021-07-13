@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 
 public class Stock {
-    private ArrayList<Product> products = new ArrayList<Product>();
+    private final Balance balance = new Balance();
+    private final ArrayList<Product> products = new ArrayList<>();
 
     public void addProduct(Product product) {
         this.products.add(product);
@@ -21,5 +22,14 @@ public class Stock {
 
     public int getProductQuantity() {
         return products.size();
+    }
+
+    public double getBalanceMoney() {
+        return balance.getMoney();
+    }
+
+    public void sellProduct(Product product) {
+        balance.addMoney(product.getValue());
+        removeProduct(product);
     }
 }

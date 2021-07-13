@@ -37,7 +37,7 @@ public class StockTest {
 
     @Test
     public void shouldGetProducts() {
-        ArrayList<Product> products = new ArrayList<Product>();
+        ArrayList<Product> products = new ArrayList<>();
         Stock stock = new Stock();
         Provider provider = new Provider("Fernando", "fe395rodrigues@gmail.com", "51996685590");
         Product product = new Product("Tagima", 129.90, provider);
@@ -53,5 +53,16 @@ public class StockTest {
         Product product = new Product("Tagima", 129.90, provider);
         stock.addProduct(product);
         assertEquals(1, stock.getProductQuantity());
+    }
+
+    @Test
+    public void shouldSellProduct() {
+        Stock stock = new Stock();
+        Provider provider = new Provider("Fernando", "fe395rodrigues@gmail.com", "51996685590");
+        Product product = new Product("Tagima", 129.90, provider);
+        stock.addProduct(product);
+        stock.sellProduct(product);
+        assertEquals(0, stock.getProductQuantity());
+        assertEquals(129.90, stock.getBalanceMoney());
     }
 }

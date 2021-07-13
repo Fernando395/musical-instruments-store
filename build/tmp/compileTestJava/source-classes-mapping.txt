@@ -1,4 +1,6 @@
 ProductTest.java
  ProductTest
+BalanceTest.java
+ BalanceTest
 StockTest.java
  StockTest

@@ -1,5 +1,6 @@
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ProductTest {
@@ -14,7 +15,7 @@ public class ProductTest {
     }
 
     @Test
-    public void shouldShowAddedProductData(){
+    public void shouldShowAddedProductData() {
         Provider provider = new Provider("Fernando", "fe395rodrigues@gmail.com", "51996685590");
         Product product = new Product("Tagima", 129.90, provider);
 
