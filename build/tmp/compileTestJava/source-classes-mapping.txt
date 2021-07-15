@@ -1,8 +1,8 @@
-BalanceTest.java
- BalanceTest
+ProductTest.java
+ ProductTest
 ProviderTest.java
  ProviderTest
 StockTest.java
  StockTest
-ProductTest.java
- ProductTest
+BalanceTest.java
+ BalanceTest
