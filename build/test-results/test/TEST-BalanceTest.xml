@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BalanceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-15T20:41:15" hostname="bruno-Aspire-A315-53" time="0.014">
+<testsuite name="BalanceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-15T20:57:37" hostname="bruno-Aspire-A315-53" time="0.01">
   <properties/>
-  <testcase name="shouldDrawMoneyToBalance()" classname="BalanceTest" time="0.008"/>
-  <testcase name="shouldThrowAnException()" classname="BalanceTest" time="0.002"/>
+  <testcase name="shouldDrawMoneyToBalance()" classname="BalanceTest" time="0.001"/>
+  <testcase name="shouldThrowAnException()" classname="BalanceTest" time="0.004"/>
   <testcase name="shouldAddMoneyToBalance()" classname="BalanceTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

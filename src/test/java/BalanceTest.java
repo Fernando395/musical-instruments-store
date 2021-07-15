@@ -8,9 +8,6 @@ public class BalanceTest {
     @Test
     public void shouldThrowAnException() {
         Balance balance = new Balance();
-        balance.addMoney(129.90);
-        balance.withdrawMoney(129.90);
-        assertEquals(0, balance.getMoney());
         assertThrows(IllegalArgumentException.class, () -> {
             balance.withdrawMoney(50000.00);
         });

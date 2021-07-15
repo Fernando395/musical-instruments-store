@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StockTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-07-15T20:41:15" hostname="bruno-Aspire-A315-53" time="0.045">
+<testsuite name="StockTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-07-15T20:57:37" hostname="bruno-Aspire-A315-53" time="0.031">
   <properties/>
-  <testcase name="shouldGetProduct()" classname="StockTest" time="0.028"/>
-  <testcase name="shouldRemoveProduct()" classname="StockTest" time="0.0"/>
+  <testcase name="shouldGetProduct()" classname="StockTest" time="0.024"/>
+  <testcase name="shouldRemoveProduct()" classname="StockTest" time="0.001"/>
   <testcase name="shouldAddProduct()" classname="StockTest" time="0.001"/>
   <testcase name="shouldSellProduct()" classname="StockTest" time="0.001"/>
-  <testcase name="shouldGetQuantityOfProducts()" classname="StockTest" time="0.0"/>
-  <testcase name="shouldGetProducts()" classname="StockTest" time="0.001"/>
+  <testcase name="shouldGetQuantityOfProducts()" classname="StockTest" time="0.001"/>
+  <testcase name="shouldGetProducts()" classname="StockTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

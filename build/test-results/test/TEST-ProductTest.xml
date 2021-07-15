@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ProductTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-15T20:41:15" hostname="bruno-Aspire-A315-53" time="0.002">
+<testsuite name="ProductTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-15T20:57:37" hostname="bruno-Aspire-A315-53" time="0.003">
   <properties/>
-  <testcase name="shouldShowAddedProductData()" classname="ProductTest" time="0.0"/>
+  <testcase name="shouldShowAddedProductData()" classname="ProductTest" time="0.001"/>
   <testcase name="shouldGetAttributes()" classname="ProductTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
