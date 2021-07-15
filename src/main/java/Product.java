@@ -9,17 +9,6 @@ public class Product {
         this.provider = provider;
     }
 
-    public void addingProduct() {
-        System.out.println("Novo produto adicionado");
-        System.out.println("Dados do Produto");
-        System.out.println("Marca:" + brand);
-        System.out.println("Valor:" + value);
-        if (provider != null) {
-            provider.mostrarDados();
-        }
-        System.out.println("Fornecedor não cadastrado");
-    }
-
     public String getBrand() {
         return brand;
     }

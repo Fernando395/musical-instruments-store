@@ -5,12 +5,11 @@ public class Balance {
         this.money += valor;
     }
 
-    public String withdrawMoney(double valor) {
+    public void withdrawMoney(double valor) {
         if (valor > money) {
-            return "Valor Invalido";
+            throw new IllegalArgumentException("Valor invalido");
         }
         this.money -= valor;
-        return "Valor modificado com sucesso";
     }
 
     public double getMoney() {
