@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class BalanceTest {
 
     @Test
-    public void shouldThrowAnException() {
+    public void balanceShouldNotBeNegative() {
         Balance balance = new Balance();
         assertThrows(IllegalArgumentException.class, () -> {
             balance.withdrawMoney(50000.00);
